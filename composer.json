@@ -1,0 +1,26 @@
+{
+    "name": "laravel-lara/lsktd",
+    "description": "Package used for angular uhelp",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "laravelLara\\lsktd\\": "src/",
+            "laravelLara\\lsktd\\Console\\Commands\\": "src/Files"
+        },
+        "files": [
+            "src/utils/CustomFunctions.php"
+        ]
+    },
+    "require": {
+        "php": "^8.1",
+        "froiden/laravel-installer": "^1.9"
+    },
+    "authors": [
+        {
+            "name": "spruko",
+            "email": "dev@team.spruko.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
